@@ -6,7 +6,6 @@ skill.setAttribute("class","skill");
 const head = document.createElement("div");
 head.setAttribute("class","head");
 
-
 function createBanner(){
 	const banner = document.createElement("div");
 	banner.setAttribute("class","head");
@@ -166,12 +165,11 @@ function createImage(){
 	body.appendChild(skill);
 }
 
-function createAchievement(){
-	
+function createAchievement(){	
 	const headDiv = document.createElement("div");
     headDiv.setAttribute("class","headDiv");
 	const div = document.createElement("div");
-	div.setAttribute("class","div")
+	div.setAttribute("class","div");
 	const img = document.createElement("img");
 	img.setAttribute("src","https://arihara-sudhan.github.io/statics/win.png");
 	const h = document.createElement("h1");
@@ -188,9 +186,9 @@ function createAchievement(){
 	div.appendChild(img);
 	div.appendChild(h);
 	headDiv.appendChild(div)
+	headDiv.appendChild(day);
 	body.appendChild(headDiv);
 	day.appendChild(h1);
-	headDiv.appendChild(day);
 	title.appendChild(n);
     body.appendChild(title);
 }
@@ -276,18 +274,6 @@ function createProject(){
     body.appendChild(head);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 createBanner();
