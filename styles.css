@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+	font-family: "Ubuntu", sans-serif;
+}
+
+#image {
+	width: 20%;
+	border-radius: 50%;
+	margin: 1rem;
+	border: 5px solid white;
+}
+
+.head {
+	background-color: #666666;
+	display: flex;
+	align-items: center;
+}
+
+.text {
+	color: white;
+	margin-left: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.text h1 {
+	font-size: 5vw;
+	font-weight: bold;
+	letter-spacing: 0.5rem;
+}
+
+.text h1,h3 {
+	margin: 0;
+}
+
+.text h3 {
+	font-size: 3vw;
+	letter-spacing: 1rem;
+	
+}
+
+.head1 {
+	background-color: #cccccc;
+	text-align: center;
+	height: 9vh;
+}
+
+.head1 h1 {
+	margin: 0;
+	padding: 0.5rem;
+	color: #666666;
+	font-size: 2.8vw;
+}
+
+
+.division {
+	display: flex;
+	justify-content: space-around;
+}
+
+.langdiv {
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.heading {
+	background-color: #cccccc;
+	text-align: center;
+	height: 9vh;
+}
+
+.heading h1 {
+	margin: 0;
+	padding: 0.5rem;
+	color: #666666;
+	font-size: 2.8vw;
+}
+
+.first img {
+	width: 26%;
+}
+
+
+.outerDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.first {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 0.15rem solid rgba(0,0,0,0.1);
+	padding: 0.5rem;
+}
+
+.first * {
+	margin: 0;
+}
+
+.heading1 h1 {
+	margin: 0;
+	padding: 0.5rem;
+	color: #666666;
+	font-size: 2.8vw;
+}
+
+.heading1 {
+	background-color: #cccccc;
+	text-align: center;
+}
+
+.skill {
+	display: flex;
+	flex-wrap: wrap;
+	
+	align-items: center;
+	margin: 0;
+}
+
+.skillinner img {
+	width: 60%;
+}
+
+.skillinner {
+	width: 23.5%;
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 0.15rem solid rgba(0,0,0,0.1);
+}
+
+.skillinner * {
+	margin: 0;
+}
+
+.div img {
+	width: 8%;
+}
+
+.div {
+	display: flex;
+	margin: 1rem;
+}
+
+.headDiv {
+	display: flex;
+}
+
+.title h1 {
+	margin-left: 2rem;
+}
+
+.one img {
+	width: 20%;
+	border-radius: 50%;
+}
