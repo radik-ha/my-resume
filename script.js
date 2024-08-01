@@ -3,8 +3,11 @@ const od = document.createElement("div");
 od.setAttribute("class","outerDiv");
 const skill = document.createElement("div");
 skill.setAttribute("class","skill");
-const head = document.createElement("div");
-head.setAttribute("class","head");
+const achievement = document.createElement("div");
+achievement.setAttribute("class","achievement");
+const head3 = document.createElement("div");
+head3.setAttribute("class","head3");
+
 
 function createBanner(){
 	const banner = document.createElement("div");
@@ -31,14 +34,14 @@ function createLanguageBar(){
 	const div1 = document.createElement("div");
 	div1.setAttribute("class","langdiv");
 	const image1 = document.createElement("img");
-	image1.setAttribute("src","https://arihara-sudhan.github.io/statics/tamil.png");
+	image1.setAttribute("src","./images/tamil.png");
 	image1.setAttribute("id","image1");
 	const name2 = document.createElement("h2");
 	name2.innerText = "Tamizh";
 	const div2 = document.createElement("div");
 	div2.setAttribute("class","langdiv");
 	const image2 = document.createElement("img");
-	image2.setAttribute("src","https://arihara-sudhan.github.io/statics/eng.png");
+	image2.setAttribute("src","./images/eng.png");
 	image2.setAttribute("id","image2");
 	const name3 = document.createElement("h2");
 	name3.innerText = "English";
@@ -77,7 +80,7 @@ function createShield(){
 	    {
 	    	word: "PANCHAYAT UNION ELEMENTARY SCHOOL",
 	    	word1: "SUBRAMANIYAPURAM",
-	    	imglink: "https://arihara-sudhan.github.io/statics/tr.png",
+	    	imglink: "./images/tr.png",
 	        word2: "Class Leader",
 	        word3: "I Rank in School"
 	     
@@ -86,7 +89,7 @@ function createShield(){
 	    {
 	    	word: "GOVERNMENT HIGH SCHOOL",
 	    	word1: "AYOTHIYAPURIPATTANAM",
-	    	imglink: "https://arihara-sudhan.github.io/statics/tr.png",
+	    	imglink: "./images/tr.png",
 	    	word2: "Class Leader",
 	    	word3: "441 Marks for 500"
 	    },
@@ -94,7 +97,7 @@ function createShield(){
 	    {
 	    	word: "GOVERNMENT HIGHER SECONDARY SCHOOL",
 	    	word1: "POOLANGULAM",
-	    	imglink: "https://arihara-sudhan.github.io/statics/tr.png",
+	    	imglink: "./images/tr.png",
 	    	word2: "Class Leader",
 	    	word3: "532 Marks for 600"
 	    }
@@ -127,12 +130,7 @@ function createHtml(obj){
 
 function createImage(){
 	const details = [
-		{
-			imagelink: "https://png.pngitem.com/pimgs/s/27-278324_html5-css3-bootstrap-logo-hd-png-download.png",
-			imgName: "Bootstrap"
-
-		},
-
+		
 		{
 			imagelink: "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-file-html-shiny-icon-svg-wikimedia-commons-11.png",
 			imgName: "HTML"
@@ -141,6 +139,12 @@ function createImage(){
 		{
 			imagelink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTwzDfejQjrtyuTLtbhl78_QUBEtG86gBq7cIkjmtkpMgUuC7A6V9-l-UmgsX0mcz6wFk&usqp=CAU",
 			imgName: "CSS"
+		},
+
+		{
+			imagelink: "https://png.pngitem.com/pimgs/s/27-278324_html5-css3-bootstrap-logo-hd-png-download.png",
+			imgName: "Bootstrap"
+
 		},
 
 		{
@@ -165,115 +169,160 @@ function createImage(){
 	body.appendChild(skill);
 }
 
-function createAchievement(){	
-	const headDiv = document.createElement("div");
-    headDiv.setAttribute("class","headDiv");
-	const div = document.createElement("div");
-	div.setAttribute("class","div");
+function createAchievements(obj){
+	const a = document.createElement("div");
+	a.setAttribute("class","a")
+	const b = document.createElement("div");
+	b.setAttribute("class","b")
+	const c = document.createElement("div");
+	c.setAttribute("class","c")
 	const img = document.createElement("img");
-	img.setAttribute("src","https://arihara-sudhan.github.io/statics/win.png");
-	const h = document.createElement("h1");
-	h.innerText = "Tamil Talent Search Examination, Tamilnadu District Level";
-    const day = document.createElement("div");
-    day.setAttribute("class","date");
-    const h1 = document.createElement("h1");
-    day.innerText = "OCT 2022";
-    const title = document.createElement("div");
-    title.setAttribute("class","title");
-    const n = document.createElement("h1");
-    n.innerText = "I Have Passed The Exam And I Got Selected For Scholarship";
-	
-	div.appendChild(img);
-	div.appendChild(h);
-	headDiv.appendChild(div)
-	headDiv.appendChild(day);
-	body.appendChild(headDiv);
-	day.appendChild(h1);
-	title.appendChild(n);
-    body.appendChild(title);
+	img.setAttribute("src",obj.image);
+	const exam = document.createElement("h1");
+	exam.innerText = obj.exam;
+    const sec = document.createElement("h2");
+    sec.setAttribute("id","sec");
+    sec.innerText = obj.sec;
+    const date = document.createElement("h2");
+    date.setAttribute("id","date");
+    date.innerText = obj.date;
+
+    c.appendChild(img);
+    c.appendChild(exam);
+    b.appendChild(c);
+    b.appendChild(sec);
+    a.appendChild(b);
+    a.appendChild(date);
+    achievement.appendChild(a);
 }
 
+function createAchievement(){
+	const details = [
+	    {
+	    	image: "./images/star.png",
+	    	exam: "Tamil Talent Search Examination, Tamilnadu District Level.",
+	    	sec: "I Have Passed The Exam And I Got Selected For Scholarship",
+            date: "OCT 2022"
+        },
+	    {
+	    	image: "./images/star.png",
+	    	exam: "Tamil Talent Search Examination, Tamilnadu District Level.",
+	    	sec: "I Have Passed The Exam And I Got Selected For Scholarship",
+	    	date: "OCT 2022"
+        }
+    ]
+    
+    details.forEach(createAchievements);
+    body.appendChild(achievement);
+
+}
+	  
+
+
 function createProjects(obj){
-	const one = document.createElement("div");
-	one.setAttribute("class","one");
+    const head = document.createElement("div");
+    head.setAttribute("class","title");
+	const header = document.createElement("div");
+	header.setAttribute("class","header");
 	const img = document.createElement("img");
 	img.setAttribute("src",obj.imglink);
+	img.setAttribute("class","project-img");
+	const anchor = document.createElement("a");
+	anchor.setAttribute("href", obj.link);
+	anchor.setAttribute("class", "name-link");
 	const name = document.createElement("h1");
 	name.innerText = obj.name;
-    
-	one.appendChild(img);
-	one.appendChild(name);
-	head.appendChild(one);
-	
+	anchor.innerHTML = name.outerHTML;
+    const text = document.createElement("div");
+    text.setAttribute("class","lang");
+    const l = document.createElement("h1");
+    l.innerText = obj.h1;
+	header.appendChild(img);
+	header.appendChild(anchor);
+    text.appendChild(l);
+	head.appendChild(header);
+	head.appendChild(text);
+	head3.appendChild(head);
 }
 
 function createProject(){
-	const detail = [
+	const details = [
 	        {
-	    	    imglink: "https://www.exoticexpress.co.uk/cdn/shop/products/image_3cbdb0f3-a22d-4d80-8b68-143ba729e5b2_300x300.jpg?v=1681718977",
+	    	    imglink: "https://img.freepik.com/premium-photo/delicious-fruits_1028566-58.jpg",
 	    	    name: "Fruits Page",
-	            h1: "HTML"
+	            h1: "HTML/CSS",
+	            link: "https://radik-ha.github.io/fruits-page/"
 	        },
 
 	        {
-	    	    imglink: "https://5.imimg.com/data5/VK/ZF/GE/SELLER-50068616/brinjal-500x500.jpeg",
+	    	    imglink: "https://www.kuvingsusa.com/cdn/shop/articles/077931d29bfc10af2a246d30f51907d7.jpg?v=1656108581",
 	    	    name: "Vegetables Page",
-	    	    h1: "HTML"
-	        },
+	    	    h1: "HTML/CSS",
+	            link: "https://radik-ha.github.io/vegetable-web/"
+	        },   
 
 	        {
-	    	    imglink: "",
+	    	    imglink: "https://www.abc.net.au/reslib/201311/r1204239_15618807.jpg",
 	    	    name: "Virus Page",
-	    	    h1: "Bootstrap"
+	    	    h1: "Bootstrap",
+	            link: "https://radik-ha.github.io/virus-bootstrap/"
 	        },
 
 	        {
-	    	    imglink: "",
+	    	    imglink: "https://storage.googleapis.com/pai-images/5452684911044eee857ded6e31e2447c.jpeg",
 	    	    name: "Animals Sound",
-	    	    h1: "",
+	    	    h1: "HTML",
+	            link: "https://radik-ha.github.io/animals-sounds/"
 	        },
 
 	        {
-	    	    imglink: "",
+	    	    imglink: "https://img.fruugo.com/product/3/09/923192093_0340_0340.jpg",
 	    	    name: "Web Piano",
-	    	    h1: "JavaScript"
+	    	    h1: "JavaScript/HTML",
+	            link: "https://radik-ha.github.io/web-piano/"
 	        },
 
 	        {
-	    	    imglink: "",
+	    	    imglink: "https://static.vecteezy.com/system/resources/thumbnails/004/985/607/small_2x/glassmorphism-concept-login-page-with-frosted-glass-mobile-app-login-and-registration-user-interface-concept-blurred-registration-form-design-vector.jpg",
 	    	    name: "Login Form",
-	    	    h1: "HTML/CSS"
-	        },
+	    	    h1: "HTML/CSS",
+	            link: "https://radik-ha.github.io/login-form/"
+	        },    
 
 	        {
-	    	    imglink: "",
+	    	    imglink: "https://brandlogos.net/wp-content/uploads/2013/03/mickey-mouse-disney-vector.png",
 	    	    name: "Cartoon Page",
-	    	    h1: "Grid"
+	    	    h1: "Grid/CSS",
+	            link: "https://radik-ha.github.io/cartoon-grid/"
 	        },
 
 	        {
-	    	    imglink: "",
+	    	    imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO1sYuQFsQnxBAVr4KOUJWlxUfaRnxi1WX6KKThWCPVc2HBPowIvjNG1NE1X9my9NCtug&usqp=CAU",
 	    	    name: "Play With Image",
-	    	    h1: ""
+	    	    h1: "JS/HTML/CSS",
+	            link: "https://radik-ha.github.io/play-with-image/"
 	        },
 
 	        {
-	    	    imglink: "",
+	    	    imglink: "https://images.ctfassets.net/prxuf37q3ta2/6e2OK9Jr60JglYltKdyIDf/6582105ebe01bd5c32d3c7fb3055deb6/SB-36476_Flowers_dlp1858x1858-1.jpg?w=1024",
 	    	    name: "Flowers Page",
-	    	    h1: "JavaScript"
+	    	    h1: "JavaScript/CSS/HTML",
+	            link: "https://radik-ha.github.io/flowers-page/"
 	        },
 
 	        {
-	    	    imglink: "",
+	    	    imglink: "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjc5LTEwMy14LmpwZw.jpg",
 	    	    name: "Dualities",
-	    	    h1: "HTML"
-	        }
+	    	    h1: "HTML/CSS",
+	            link: "https://radik-ha.github.io/dualities/"
+	        } 
 	]
 
-    detail.forEach(createProjects);
-    body.appendChild(head);
+    details.forEach(createProjects);
+    body.appendChild(head3);
 
 }
+
 
 
 createBanner();
@@ -287,3 +336,4 @@ createTitleBar("ACHIEVEMENT");
 createAchievement();
 createTitleBar("PROJECTS");
 createProject();
+createTitleBar("HOBBIES");
