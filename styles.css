@@ -284,7 +284,11 @@
 }
 
 #color1 {
+<<<<<<< HEAD
 	background-color: lightgreen;
+=======
+	background-color: black;
+>>>>>>> mybranch
 }
 
 #color2 {
