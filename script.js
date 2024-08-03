@@ -7,9 +7,13 @@ const achievement = document.createElement("div");
 achievement.setAttribute("class","achievement");
 const head3 = document.createElement("div");
 head3.setAttribute("class","head3");
+const hobby = document.createElement("div");
+hobby.setAttribute("id","hobby");
+var color = 0;
 
 
 function createBanner(){
+	
 	const banner = document.createElement("div");
 	banner.setAttribute("class","head");
 	const image = document.createElement("img");
@@ -21,12 +25,26 @@ function createBanner(){
 	name.innerText = "RATHIKA";
 	const title = document.createElement("h3");
 	title.innerText = "WEB DEVELOPER";
+	const img = document.createElement("div");
+	img.setAttribute("class","logo");
+	const img1 = document.createElement("img");
+	img1.setAttribute("src","https://cdn-icons-png.flaticon.com/256/121/121509.png");
+	const img2 = document.createElement("img");
+	img2.setAttribute("src","https://marketplacedesignoye.s3.ap-south-1.amazonaws.com/Black%20%26%20White-pinned-octocat-vector.png");
+    const img3 = document.createElement("img");
+	img3.setAttribute("src","https://img.freepik.com/premium-vector/email-icon-png_564384-728.jpg");
+
 	banner.appendChild(image);
 	div.appendChild(name);
 	div.appendChild(title);
+	img.appendChild(img1);
+	img.appendChild(img2);
+	img.appendChild(img3);
+	div.appendChild(img);
 	banner.appendChild(div);
 	body.appendChild(banner);
 }
+
 
 function createLanguageBar(){
 	const division = document.createElement("div");
@@ -203,13 +221,8 @@ function createAchievement(){
 	    	exam: "Tamil Talent Search Examination, Tamilnadu District Level.",
 	    	sec: "I Have Passed The Exam And I Got Selected For Scholarship",
             date: "OCT 2022"
-        },
-	    {
-	    	image: "./images/star.png",
-	    	exam: "Tamil Talent Search Examination, Tamilnadu District Level.",
-	    	sec: "I Have Passed The Exam And I Got Selected For Scholarship",
-	    	date: "OCT 2022"
         }
+	    
     ]
     
     details.forEach(createAchievements);
@@ -315,7 +328,21 @@ function createProject(){
 	    	    name: "Dualities",
 	    	    h1: "HTML/CSS",
 	            link: "https://radik-ha.github.io/dualities/"
-	        } 
+	        },
+
+	        {
+	        	imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk7IL4Rm1VG2KWB_XSf6z1EYfmGouceEQcKA_j0bdKRNoqA_jgLxSTV8NJ15XGlzrVYE&usqp=CAU",
+	        	name: "Crud Page",
+	        	h1: "JavaScript/CSS/HTML",
+	        	link: "https://radik-ha.github.io/crud-app-using-html-css-js/"
+	        },
+
+	        {
+	        	imglink: "https://media.istockphoto.com/id/1346732852/vector/a-watercolor-dolphin-jumps-from-the-water-vivid-illustration.jpg?s=612x612&w=0&k=20&c=vX7wrjywfCpDE8tpzrPYStMBWSYbyVa5Iil2mhCQtXw=",
+	        	name: "Dolphin Page",
+	        	h1: "HTML/CSS",
+	        	link: ""
+	        }
 	]
 
     details.forEach(createProjects);
@@ -324,6 +351,27 @@ function createProject(){
 }
 
 
+function createHobbies(hstr){
+	const parent = document.createElement("div");
+	parent.setAttribute("class", "parent-hobby");
+	const circle = document.createElement("div");
+	circle.setAttribute("class", "circle-hobby");
+	circle.setAttribute("id", `color${color}`);
+	color++;
+	const text = document.createElement("span");
+	text.innerText = hstr;
+
+    parent.appendChild(circle);
+    parent.appendChild(text);
+
+    hobby.appendChild(parent);
+}
+
+function createHobby(){
+	const details = ["Drawing", "Gardening" ,"Herbarium", "Reading", "Grafting"]
+	details.forEach(createHobbies);
+	body.appendChild(hobby);
+}
 
 createBanner();
 createTitleBar("LANGUAGES KNOWN");
@@ -332,8 +380,9 @@ createTitleBar("ACADEMICS");
 createShield();
 createTitleBar("SKILL SET");
 createImage();
-createTitleBar("ACHIEVEMENT");
+createTitleBar("ACHIEVEMENTS");
 createAchievement();
 createTitleBar("PROJECTS");
 createProject();
 createTitleBar("HOBBIES");
+createHobby();

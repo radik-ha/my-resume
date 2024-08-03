@@ -55,6 +55,14 @@
 	font-size: 2.8vw;
 }
 
+.logo img {
+    width: 2.5rem;
+    margin: 1rem;
+    margin-left: 4rem;
+    background-color: white;
+    border-radius: 50%;
+}
+ 
 
 .division {
 	display: flex;
@@ -168,6 +176,11 @@
 	margin-bottom: 1rem;
 }
 
+.c1 {
+	display: flex;
+	flex-direction: row;
+}
+
 
 
 
@@ -244,4 +257,44 @@
 .name-link {
 	text-decoration: none;
 	color: black;
+}
+
+.parent-hobby {
+	display: flex;
+	align-items: center;
+}
+
+#hobby {
+	padding: 0.5rem 0rem 0.5rem 0rem; 
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.circle-hobby {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	margin-right: 0.2rem;
+}
+
+#color0 {
+	background-color: red;
+}
+
+#color1 {
+	background-color: green;
+}
+
+#color2 {
+	background-color: blue;
+}
+
+#color3 {
+	background-color: violet;
+}
+
+#color4 {
+	background-color: indigo;
 }
