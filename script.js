@@ -341,7 +341,15 @@ function createProject(){
 	        	imglink: "https://media.istockphoto.com/id/1346732852/vector/a-watercolor-dolphin-jumps-from-the-water-vivid-illustration.jpg?s=612x612&w=0&k=20&c=vX7wrjywfCpDE8tpzrPYStMBWSYbyVa5Iil2mhCQtXw=",
 	        	name: "Dolphin Page",
 	        	h1: "HTML/CSS",
-	        	link: ""
+	        	link: "https://radik-ha.github.io/dolphin-page/"
+	        },
+	        
+	        {
+
+	            imglink: "https://media.istockphoto.com/id/531633071/vector/calculator.jpg?s=612x612&w=0&k=20&c=TrSndAw_fs5LVFqagmF16aqpKb7ZYzyMZ7bVL3QVyP8=",
+	            name: "Green Calculator ",
+	            h1: "HTML/CSS/JavaScript",
+	            link: "https://radik-ha.github.io/green-calculator/"
 	        }
 	]
 

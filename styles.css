@@ -91,27 +91,34 @@
 }
 
 .first img {
-	width: 26%;
+	width: 150px;
+	height: 200px;
 }
 
 
 .outerDiv {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
-.first {
+.outerDiv .first {
+	width: 33.3%;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
+	align-items: center;
 	border: 0.15rem solid rgba(0,0,0,0.1);
-	padding: 0.5rem;
 }
 
-.first * {
-	margin: 0;
+.first h3 {
+	margin-top: 1rem;
+	font-size: 1.2vw;
+}
+
+.first h4 {
+	font-size: 1vw;
 }
 
 .heading1 h1 {
@@ -127,29 +134,23 @@
 }
 
 .skill {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	margin: 0;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
 }
 
 .skillinner img {
-	width: 60%;
+	width: 16vw;
+	margin-top: 1rem;
 }
 
-.skillinner {
-	width: 23.5%;
-	padding: 0.5rem;
+.skill .skillinner {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
+	align-items: center;
 	border: 0.15rem solid rgba(0,0,0,0.1);
 }
 
-.skillinner * {
-	margin: 0;
-}
 
 .c img {
 	width: 7%;
@@ -284,11 +285,7 @@
 }
 
 #color1 {
-<<<<<<< HEAD
 	background-color: lightgreen;
-=======
-	background-color: black;
->>>>>>> mybranch
 }
 
 #color2 {
