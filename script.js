@@ -27,18 +27,30 @@ function createBanner(){
 	title.innerText = "WEB DEVELOPER";
 	const img = document.createElement("div");
 	img.setAttribute("class","logo");
+	const anchor1 = document.createElement("a");
+	anchor1.setAttribute("href", "https://www.linkedin.com/in/radhika-s07/");
+	anchor1.setAttribute("class", "link");
 	const img1 = document.createElement("img");
 	img1.setAttribute("src","https://cdn-icons-png.flaticon.com/256/121/121509.png");
+	const anchor2 = document.createElement("a");
+	anchor2.setAttribute("href", "https://github.com/radik-ha");
+	anchor2.setAttribute("class", "link");
 	const img2 = document.createElement("img");
 	img2.setAttribute("src","https://marketplacedesignoye.s3.ap-south-1.amazonaws.com/Black%20%26%20White-pinned-octocat-vector.png");
+    
+
     const img3 = document.createElement("img");
 	img3.setAttribute("src","https://img.freepik.com/premium-vector/email-icon-png_564384-728.jpg");
+    
+    
 
 	banner.appendChild(image);
 	div.appendChild(name);
 	div.appendChild(title);
-	img.appendChild(img1);
-	img.appendChild(img2);
+	anchor1.appendChild(img1);
+	img.appendChild(anchor1);
+	anchor2.appendChild(img2);
+	img.appendChild(anchor2);
 	img.appendChild(img3);
 	div.appendChild(img);
 	banner.appendChild(div);
