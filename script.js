@@ -362,6 +362,13 @@ function createProject(){
 	            name: "Green Calculator ",
 	            h1: "HTML/CSS/JavaScript",
 	            link: "https://radik-ha.github.io/green-calculator/"
+	        },
+
+	        {
+	        	imglink: "https://seed2plant.in/cdn/shop/files/dark_pink_dahlia_flower_petals_in_green_leaves_background_4k_hd_flowers.jpg?v=1696501139",
+	        	name: "My First React App",
+	        	h1: "React",
+	        	link: "https://my-first-react-app-vkl4.onrender.com/"
 	        }
 	]
 
