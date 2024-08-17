@@ -272,6 +272,13 @@ function createProjects(obj){
 
 function createProject(){
 	const details = [
+		{
+			imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TM5Gt4nKUHQF7Uw0ee_aZjiKsDt5c4GnQQ&s",
+			name: "My Projects",
+			h1: "HTML/CSS/Javascript",
+			link: "https://radik-ha.github.io/my-projects/"
+		},
+		
 	        {
 	    	    imglink: "https://img.freepik.com/premium-photo/delicious-fruits_1028566-58.jpg",
 	    	    name: "Fruits Page",
@@ -369,14 +376,8 @@ function createProject(){
 	        	name: "My First React App",
 	        	h1: "React",
 	        	link: "https://my-first-react-app-vkl4.onrender.com/"
-	        },
+	        }
 
-		{
-			imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TM5Gt4nKUHQF7Uw0ee_aZjiKsDt5c4GnQQ&s",
-			name: "My Projects",
-			h1: "HTML/CSS/Javascript",
-			link: "https://radik-ha.github.io/my-projects/"
-		}
 	]
 
     details.forEach(createProjects);
