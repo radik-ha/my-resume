@@ -183,6 +183,11 @@ function createImage(){
 		},
 
 		{
+			imagelink: "https://i.makeagif.com/media/11-21-2022/imisbt.gif",
+			imgName: "React"
+		},
+
+		{
 			imagelink: "https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-512.png",
 			imgName: "GitHub"
 		},
@@ -191,7 +196,6 @@ function createImage(){
 			imagelink: "https://git-scm.com/images/logos/logomark-orange@2x.png",
 			imgName: "Git"
 		}
-
 		
 	]
 
@@ -231,7 +235,7 @@ function createAchievement(){
 	    {
 	    	image: "./images/star.png",
 	    	exam: "Tamil Talent Search Examination, Tamilnadu District Level.",
-	    	sec: "I Have Passed The Exam And I Got Selected For Scholarship",
+	    	sec: "I have passed the exam and i got selected for Scholarship",
             date: "OCT 2022"
         }
 	    
@@ -272,24 +276,24 @@ function createProjects(obj){
 
 function createProject(){
 	const details = [
-		{
-			imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TM5Gt4nKUHQF7Uw0ee_aZjiKsDt5c4GnQQ&s",
-			name: "My Projects",
-			h1: "HTML/CSS/Javascript",
-			link: "https://radik-ha.github.io/my-projects/"
-		},
-		
+            {
+			    imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TM5Gt4nKUHQF7Uw0ee_aZjiKsDt5c4GnQQ&s",
+			    name: "My Projects",
+			    h1: "HTML/CSS/Javascript",
+			    link: "https://radik-ha.github.io/my-projects/"
+		    },
+
 	        {
 	    	    imglink: "https://img.freepik.com/premium-photo/delicious-fruits_1028566-58.jpg",
 	    	    name: "Fruits Page",
-	            h1: "HTML/CSS",
+	            h1: "HTML/CSS(flex-wrab)",
 	            link: "https://radik-ha.github.io/fruits-page/"
 	        },
 
 	        {
-	    	    imglink: "https://www.kuvingsusa.com/cdn/shop/articles/077931d29bfc10af2a246d30f51907d7.jpg?v=1656108581",
+	    	    imglink: "https://www.bigbasket.com/media/uploads/p/l/40254432_1-fresho-beetroot-with-leaves-packed-with-nutrients-improves-blood-flow.jpg",
 	    	    name: "Vegetables Page",
-	    	    h1: "HTML/CSS",
+	    	    h1: "HTML/CSS(flex)",
 	            link: "https://radik-ha.github.io/vegetable-web/"
 	        },   
 
@@ -303,14 +307,14 @@ function createProject(){
 	        {
 	    	    imglink: "https://storage.googleapis.com/pai-images/5452684911044eee857ded6e31e2447c.jpeg",
 	    	    name: "Animals Sound",
-	    	    h1: "HTML",
+	    	    h1: "HTML/CSS/JavaScript",
 	            link: "https://radik-ha.github.io/animals-sounds/"
 	        },
 
 	        {
 	    	    imglink: "https://img.fruugo.com/product/3/09/923192093_0340_0340.jpg",
 	    	    name: "Web Piano",
-	    	    h1: "JavaScript/HTML",
+	    	    h1: "HTML/CSS/JavaScript",
 	            link: "https://radik-ha.github.io/web-piano/"
 	        },
 
@@ -324,21 +328,21 @@ function createProject(){
 	        {
 	    	    imglink: "https://brandlogos.net/wp-content/uploads/2013/03/mickey-mouse-disney-vector.png",
 	    	    name: "Cartoon Page",
-	    	    h1: "Grid/CSS",
+	    	    h1: "HTML/CSS(Grid)",
 	            link: "https://radik-ha.github.io/cartoon-grid/"
 	        },
 
 	        {
-	    	    imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO1sYuQFsQnxBAVr4KOUJWlxUfaRnxi1WX6KKThWCPVc2HBPowIvjNG1NE1X9my9NCtug&usqp=CAU",
+	    	    imglink: "https://thumbs.dreamstime.com/b/chameleon-floral-rainbow-fantasy-colorful-composed-several-ornamental-elements-like-flowers-mosaics-assembled-symphony-61863499.jpg",
 	    	    name: "Play With Image",
-	    	    h1: "JS/HTML/CSS",
+	    	    h1: "HTML/CSS/JavaScript",
 	            link: "https://radik-ha.github.io/play-with-image/"
 	        },
 
 	        {
 	    	    imglink: "https://images.ctfassets.net/prxuf37q3ta2/6e2OK9Jr60JglYltKdyIDf/6582105ebe01bd5c32d3c7fb3055deb6/SB-36476_Flowers_dlp1858x1858-1.jpg?w=1024",
 	    	    name: "Flowers Page",
-	    	    h1: "JavaScript/CSS/HTML",
+	    	    h1: "HTML/CSS/JavaScript",
 	            link: "https://radik-ha.github.io/flowers-page/"
 	        },
 
@@ -351,8 +355,8 @@ function createProject(){
 
 	        {
 	        	imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk7IL4Rm1VG2KWB_XSf6z1EYfmGouceEQcKA_j0bdKRNoqA_jgLxSTV8NJ15XGlzrVYE&usqp=CAU",
-	        	name: "Crud Page",
-	        	h1: "JavaScript/CSS/HTML",
+	        	name: "CRUD Page",
+	        	h1: "HTML/CSS/JavaScript",
 	        	link: "https://radik-ha.github.io/crud-app-using-html-css-js/"
 	        },
 
@@ -372,10 +376,31 @@ function createProject(){
 	        },
 
 	        {
+	        	imglink: "https://i.natgeofe.com/k/c491536c-f34d-4e64-ad27-8ee070dce475/monarch-butterfly-orange-flower_square.jpg",
+	        	name: "Insects Page",
+	        	h1: "HTML/CSS(Media Query)",
+	        	link: "https://radik-ha.github.io/media-query-insects/"
+	        },
+
+	        {
 	        	imglink: "https://seed2plant.in/cdn/shop/files/dark_pink_dahlia_flower_petals_in_green_leaves_background_4k_hd_flowers.jpg?v=1696501139",
 	        	name: "My First React App",
-	        	h1: "React",
+	        	h1: "React(props)",
 	        	link: "https://my-first-react-app-vkl4.onrender.com/"
+	        },
+
+	        {
+	        	imglink: "https://cdn.vectorstock.com/i/500p/42/81/letter-z-number-2-logo-icon-design-template-vector-5764281.jpg",
+	        	name: "Zacebook",
+	        	h1: "React(props)",
+	        	link: "https://zacebook-react.onrender.com/"
+	        },
+
+	        {
+	        	imglink: "https://cdn.pixabay.com/photo/2015/08/03/13/58/whatsapp-873316_1280.png",
+	        	name: "WhatsApp-UI Clone",
+	        	h1: "React(Conditional rendering,Map,Usestate Hook)",
+	        	link: "https://whatsapp-ui-using-react.onrender.com/"
 	        }
 
 	]
@@ -400,7 +425,6 @@ function createHobbies(hstr){
     parent.appendChild(text);
 
     hobby.appendChild(parent);
-
 }
 
 function createHobby(){
