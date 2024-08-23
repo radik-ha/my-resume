@@ -279,21 +279,21 @@ function createProject(){
             {
 			    imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TM5Gt4nKUHQF7Uw0ee_aZjiKsDt5c4GnQQ&s",
 			    name: "My Projects",
-			    h1: "HTML/CSS/Javascript",
+			    h1: "HTML+CSS+JS",
 			    link: "https://radik-ha.github.io/my-projects/"
 		    },
 
 	        {
 	    	    imglink: "https://img.freepik.com/premium-photo/delicious-fruits_1028566-58.jpg",
 	    	    name: "Fruits Page",
-	            h1: "HTML/CSS(flex-wrab)",
+	            h1: "HTML+CSS(flex-wrab)",
 	            link: "https://radik-ha.github.io/fruits-page/"
 	        },
 
 	        {
 	    	    imglink: "https://www.bigbasket.com/media/uploads/p/l/40254432_1-fresho-beetroot-with-leaves-packed-with-nutrients-improves-blood-flow.jpg",
 	    	    name: "Vegetables Page",
-	    	    h1: "HTML/CSS(flex)",
+	    	    h1: "HTML+CSS(flex)",
 	            link: "https://radik-ha.github.io/vegetable-web/"
 	        },   
 
@@ -307,63 +307,63 @@ function createProject(){
 	        {
 	    	    imglink: "https://storage.googleapis.com/pai-images/5452684911044eee857ded6e31e2447c.jpeg",
 	    	    name: "Animals Sound",
-	    	    h1: "HTML/CSS/JavaScript",
+	    	    h1: "HTML+CSS+JS",
 	            link: "https://radik-ha.github.io/animals-sounds/"
 	        },
 
 	        {
 	    	    imglink: "https://img.fruugo.com/product/3/09/923192093_0340_0340.jpg",
 	    	    name: "Web Piano",
-	    	    h1: "HTML/CSS/JavaScript",
+	    	    h1: "HTML+CSS+JS",
 	            link: "https://radik-ha.github.io/web-piano/"
 	        },
 
 	        {
 	    	    imglink: "https://static.vecteezy.com/system/resources/thumbnails/004/985/607/small_2x/glassmorphism-concept-login-page-with-frosted-glass-mobile-app-login-and-registration-user-interface-concept-blurred-registration-form-design-vector.jpg",
 	    	    name: "Login Form",
-	    	    h1: "HTML/CSS",
+	    	    h1: "HTML+CSS",
 	            link: "https://radik-ha.github.io/login-form/"
 	        },    
 
 	        {
 	    	    imglink: "https://brandlogos.net/wp-content/uploads/2013/03/mickey-mouse-disney-vector.png",
 	    	    name: "Cartoon Page",
-	    	    h1: "HTML/CSS(Grid)",
+	    	    h1: "HTM+CSS(Grid)",
 	            link: "https://radik-ha.github.io/cartoon-grid/"
 	        },
 
 	        {
 	    	    imglink: "https://thumbs.dreamstime.com/b/chameleon-floral-rainbow-fantasy-colorful-composed-several-ornamental-elements-like-flowers-mosaics-assembled-symphony-61863499.jpg",
 	    	    name: "Play With Image",
-	    	    h1: "HTML/CSS/JavaScript",
+	    	    h1: "HTML+CSS+JS",
 	            link: "https://radik-ha.github.io/play-with-image/"
 	        },
 
 	        {
 	    	    imglink: "https://images.ctfassets.net/prxuf37q3ta2/6e2OK9Jr60JglYltKdyIDf/6582105ebe01bd5c32d3c7fb3055deb6/SB-36476_Flowers_dlp1858x1858-1.jpg?w=1024",
 	    	    name: "Flowers Page",
-	    	    h1: "HTML/CSS/JavaScript",
+	    	    h1: "HTML+CSS+JS",
 	            link: "https://radik-ha.github.io/flowers-page/"
 	        },
 
 	        {
 	    	    imglink: "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjc5LTEwMy14LmpwZw.jpg",
 	    	    name: "Dualities",
-	    	    h1: "HTML/CSS",
+	    	    h1: "HTML+CSS",
 	            link: "https://radik-ha.github.io/dualities/"
 	        },
 
 	        {
 	        	imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk7IL4Rm1VG2KWB_XSf6z1EYfmGouceEQcKA_j0bdKRNoqA_jgLxSTV8NJ15XGlzrVYE&usqp=CAU",
 	        	name: "CRUD Page",
-	        	h1: "HTML/CSS/JavaScript",
+	        	h1: "HTML+CSS+JS",
 	        	link: "https://radik-ha.github.io/crud-app-using-html-css-js/"
 	        },
 
 	        {
 	        	imglink: "https://media.istockphoto.com/id/1346732852/vector/a-watercolor-dolphin-jumps-from-the-water-vivid-illustration.jpg?s=612x612&w=0&k=20&c=vX7wrjywfCpDE8tpzrPYStMBWSYbyVa5Iil2mhCQtXw=",
 	        	name: "Dolphin Page",
-	        	h1: "HTML/CSS",
+	        	h1: "HTML+CSS",
 	        	link: "https://radik-ha.github.io/dolphin-page/"
 	        },
 	        
@@ -371,36 +371,43 @@ function createProject(){
 
 	            imglink: "https://media.istockphoto.com/id/531633071/vector/calculator.jpg?s=612x612&w=0&k=20&c=TrSndAw_fs5LVFqagmF16aqpKb7ZYzyMZ7bVL3QVyP8=",
 	            name: "Green Calculator ",
-	            h1: "HTML/CSS/JavaScript",
+	            h1: "HTML+CSS+JavaScript",
 	            link: "https://radik-ha.github.io/green-calculator/"
 	        },
 
 	        {
 	        	imglink: "https://i.natgeofe.com/k/c491536c-f34d-4e64-ad27-8ee070dce475/monarch-butterfly-orange-flower_square.jpg",
 	        	name: "Insects Page",
-	        	h1: "HTML/CSS(Media Query)",
+	        	h1: "HTML+CSS(Media Query)",
 	        	link: "https://radik-ha.github.io/media-query-insects/"
 	        },
 
 	        {
 	        	imglink: "https://seed2plant.in/cdn/shop/files/dark_pink_dahlia_flower_petals_in_green_leaves_background_4k_hd_flowers.jpg?v=1696501139",
 	        	name: "My First React App",
-	        	h1: "React(props)",
+	        	h1: "React JS",
 	        	link: "https://my-first-react-app-vkl4.onrender.com/"
 	        },
 
 	        {
 	        	imglink: "https://cdn.vectorstock.com/i/500p/42/81/letter-z-number-2-logo-icon-design-template-vector-5764281.jpg",
 	        	name: "Zacebook",
-	        	h1: "React(props)",
+	        	h1: "React JS",
 	        	link: "https://zacebook-react.onrender.com/"
 	        },
 
 	        {
 	        	imglink: "https://cdn.pixabay.com/photo/2015/08/03/13/58/whatsapp-873316_1280.png",
 	        	name: "WhatsApp-UI Clone",
-	        	h1: "React(Conditional rendering,Map,Usestate Hook)",
+	        	h1: "React JS",
 	        	link: "https://whatsapp-ui-using-react.onrender.com/"
+	        },
+
+	        {
+	        	imglink: "https://media.istockphoto.com/id/1175435360/vector/music-note-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=R7s6RR849L57bv_c7jMIFRW4H87-FjLB8sqZ08mN0OU=",
+	        	name: "Music Player",
+	        	h1: "React JS",
+	        	link: "https://music-player-react-dz26.onrender.com/"
 	        }
 
 	]
