@@ -173,28 +173,33 @@ function createImage(){
 
 		{
 			imagelink: "https://png.pngitem.com/pimgs/s/27-278324_html5-css3-bootstrap-logo-hd-png-download.png",
-			imgName: "Bootstrap"
+			imgName: "Bootstrap(Basic)"
 
 		},
 
 		{
 			imagelink: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png",
-			imgName: "JavaScript"
+			imgName: "JavaScript(Basic)"
 		},
 
 		{
 			imagelink: "https://i.makeagif.com/media/11-21-2022/imisbt.gif",
-			imgName: "React"
+			imgName: "React(Basic)"
 		},
 
 		{
 			imagelink: "https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-512.png",
-			imgName: "GitHub"
+			imgName: "GitHub(Basic)"
 		},
 
 		{
 			imagelink: "https://git-scm.com/images/logos/logomark-orange@2x.png",
-			imgName: "Git"
+			imgName: "Git(Basic)"
+		},
+
+		{
+			imagelink: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png",
+			imgName: "Python(Basic)"
 		}
 		
 	]
@@ -237,6 +242,70 @@ function createAchievement(){
 	    	exam: "Tamil Talent Search Examination, Tamilnadu District Level.",
 	    	sec: "I have passed the exam and i got selected for Scholarship",
             date: "OCT 2022"
+        },
+
+        {
+            image: "./images/star.png",
+            exam: "Introduction to C",
+            sec: "I got Certificate from Sololearn",
+            date: "MAR 2025"
+
+        },
+        {
+            image: "./images/star.png",
+            exam: "JavaScript Intermediate",
+            sec: "I got Certificate from Sololearn",
+            date: "MAR 2025"
+
+        },
+        {
+            image: "./images/star.png",
+            exam: "Introduction to CSS",
+            sec: "I got Certificate from Sololearn",
+            date: "JAN 2025"
+
+        },
+        {
+            image: "./images/star.png",
+            exam: "Python Developer",
+            sec: "I got Certificate from Sololearn",
+            date: "DEC 2024"
+
+        },
+        {
+            image: "./images/star.png",
+            exam: "Python Intermediate",
+            sec: "I got Certificate from Sololearn",
+            date: "DEC 2024"
+
+        },
+        {
+            image: "./images/star.png",
+            exam: "Web development",
+            sec: "I got Certificate from Sololearn",
+            date: "DEC 2024"
+
+        },
+        {
+            image: "./images/star.png",
+            exam: "Introduction to JavaScript",
+            sec: "I got Certificate from Sololearn",
+            date: "OCT 2024"
+
+        },
+        {
+            image: "./images/star.png",
+            exam: "Introduction to Python",
+            sec: "I got Certificate from Sololearn",
+            date: "OCT 2024"
+
+        },
+        {
+            image: "./images/star.png",
+            exam: "HTML",
+            sec: "I got Certificate from Sololearn",
+            date: "SEP 2024"
+
         }
 	    
     ]
@@ -305,7 +374,7 @@ function createProject(){
 	        },
 
 	        {
-	    	    imglink: "https://storage.googleapis.com/pai-images/5452684911044eee857ded6e31e2447c.jpeg",
+	    	    imglink: "https://img.freepik.com/premium-photo/picture-group-animals-including-one-which-is-called-lion_910054-2366.jpg",
 	    	    name: "Animals Sound",
 	    	    h1: "HTML+CSS+JS",
 	            link: "https://radik-ha.github.io/animals-sounds/"
@@ -401,13 +470,6 @@ function createProject(){
 	        	name: "WhatsApp-UI Clone",
 	        	h1: "React JS",
 	        	link: "https://whatsapp-ui-using-react.onrender.com/"
-	        },
-
-	        {
-	        	imglink: "https://media.istockphoto.com/id/1175435360/vector/music-note-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=R7s6RR849L57bv_c7jMIFRW4H87-FjLB8sqZ08mN0OU=",
-	        	name: "Music Player",
-	        	h1: "React JS",
-	        	link: "https://music-player-react-dz26.onrender.com/"
 	        }
 
 	]
