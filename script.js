@@ -345,13 +345,6 @@ function createProjects(obj){
 
 function createProject(){
 	const details = [
-            {
-			    imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TM5Gt4nKUHQF7Uw0ee_aZjiKsDt5c4GnQQ&s",
-			    name: "My Projects",
-			    h1: "HTML+CSS+JS",
-			    link: "https://radik-ha.github.io/my-projects/"
-		    },
-
 	        {
 	    	    imglink: "https://img.freepik.com/premium-photo/delicious-fruits_1028566-58.jpg",
 	    	    name: "Fruits Page",
@@ -461,14 +454,14 @@ function createProject(){
 	        {
 	        	imglink: "https://cdn.vectorstock.com/i/500p/42/81/letter-z-number-2-logo-icon-design-template-vector-5764281.jpg",
 	        	name: "Zacebook",
-	        	h1: "React JS",
+	        	h1: "React JS (Props and useState)",
 	        	link: "https://zacebook-react.onrender.com/"
 	        },
 
 	        {
 	        	imglink: "https://cdn.pixabay.com/photo/2015/08/03/13/58/whatsapp-873316_1280.png",
 	        	name: "WhatsApp-UI Clone",
-	        	h1: "React JS",
+	        	h1: "React JS (Conditional Rendering)",
 	        	link: "https://whatsapp-ui-using-react.onrender.com/"
 	        }
 
