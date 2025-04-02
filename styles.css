@@ -153,29 +153,38 @@
 	border: 0.15rem solid rgba(0,0,0,0.1);
 }
 
-
+.c {
+	font-size: 1vw;
+    display: flex;
+}
 .c img {
-	width: 7%;
+	width: 10%;
 	margin-left: 0.5rem;
+	max-width: 8%;
+	max-height: 8vh;
 }
 
 .c {
 	display: flex;
+	width: 70vw;
 }
 
 .a {
+	width: 100%;
 	display: flex;
+	justify-content: space-between;
 	border: 0.15rem solid rgba(0,0,0,0.1);
 }
 
 #date {
-	width: 10rem;
-	margin-right: 0.5rem;
+	
+	width: 10vw;
+    margin-left: 1rem;	
 }
 
 #sec {
 	margin: 0;
-	margin-left: 1.5rem;
+	margin-left: 2rem;
 	margin-bottom: 1rem;
 }
 
