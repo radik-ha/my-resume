@@ -203,8 +203,8 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkBKGzgKHQA42GTo40DCQUnNVkUWd3FMzFJA&s",
-			imgName: "Python(Basic)"
+			imagelink: "https://riteshkumarlidroid.gallerycdn.vsassets.io/extensions/riteshkumarlidroid/python-code-keeper/1.0.3/1736923015252/Microsoft.VisualStudio.Services.Icons.Default",
+			imgName: "Python"
 		}
 		
 	]
@@ -379,7 +379,7 @@ function createProject(){
 	        },
 
 	        {
-	    	    imglink: "https://png.pngtree.com/png-clipart/20240504/original/pngtree-vector-music-notes-two-musical-eighth-notes-sound-png-image_15008849.pngg",
+	    	    imglink: "https://png.pngtree.com/png-vector/20221006/ourmid/pngtree-music-notes--musical-design-png-image_6283885.png",
 	    	    name: "Web Piano",
 	    	    h1: "HTML+CSS+JS",
 	            link: "https://radik-ha.github.io/web-piano/"
