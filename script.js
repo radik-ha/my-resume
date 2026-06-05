@@ -162,7 +162,7 @@ function createImage(){
 	const details = [
 		
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=23028&format=png",
+			imagelink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIxeNFO8PSlvOvudmrtLIOYdTpN6o77VKolQ&s",
 			imgName: "HTML"
 		},
 		
@@ -172,38 +172,38 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=38272&format=png",
+			imagelink: "https://img.icons8.com/color/512/css3.png",
 			imgName: "CSS"
 		},
 
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=ldQqWiIRv9bc&format=png",
+			imagelink: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
 			imgName: "Bootstrap(Basic)"
 
 		},
 
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=39854&format=png",
+			imagelink: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png?_=20120221235433",
 			imgName: "JavaScript(Basic)"
 		},
 
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=35989&format=png",
+			imagelink: "https://assets-v2.lottiefiles.com/a/b3202668-1151-11ee-939e-cf25d6aad422/LXZKuNhIQ5.gif",
 			imgName: "React(Basic)"
 		},
 
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=12599&format=png",
+			imagelink: "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_640.png",
 			imgName: "GitHub(Basic)"
 		},
 
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=38389&format=png",
+			imagelink: "https://img.icons8.com/color/512/git.png",
 			imgName: "Git(Basic)"
 		},
 
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=12592&format=png",
+			imagelink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkBKGzgKHQA42GTo40DCQUnNVkUWd3FMzFJA&s",
 			imgName: "Python(Basic)"
 		}
 		
@@ -379,7 +379,7 @@ function createProject(){
 	        },
 
 	        {
-	    	    imglink: "https://img.fruugo.com/product/3/09/923192093_0340_0340.jpg",
+	    	    imglink: "https://png.pngtree.com/png-clipart/20240504/original/pngtree-vector-music-notes-two-musical-eighth-notes-sound-png-image_15008849.pngg",
 	    	    name: "Web Piano",
 	    	    h1: "HTML+CSS+JS",
 	            link: "https://radik-ha.github.io/web-piano/"
@@ -421,7 +421,7 @@ function createProject(){
 	        },
 
 	        {
-	        	imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk7IL4Rm1VG2KWB_XSf6z1EYfmGouceEQcKA_j0bdKRNoqA_jgLxSTV8NJ15XGlzrVYE&usqp=CAU",
+	        	imglink: "https://i.pinimg.com/736x/91/6c/0d/916c0dae691443b047ca51ea8b995b92.jpg",
 	        	name: "CRUD Page",
 	        	h1: "HTML+CSS+JS",
 	        	link: "https://radik-ha.github.io/crud-app-using-html-css-js/"
@@ -450,7 +450,7 @@ function createProject(){
 	        },
 
 	        {
-	        	imglink: "https://seed2plant.in/cdn/shop/files/dark_pink_dahlia_flower_petals_in_green_leaves_background_4k_hd_flowers.jpg?v=1696501139",
+	        	imglink: "https://i.makeagif.com/media/11-21-2022/imisbt.gif",
 	        	name: "My First React App",
 	        	h1: "React JS",
 	        	link: "https://my-first-react-app-vkl4.onrender.com/"
