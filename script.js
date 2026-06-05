@@ -162,17 +162,22 @@ function createImage(){
 	const details = [
 		
 		{
-			imagelink: "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-file-html-shiny-icon-svg-wikimedia-commons-11.png",
+			imagelink: "https://img.icons8.com/?size=100&id=23028&format=png",
 			imgName: "HTML"
+		},
+		
+		{
+			imagelink: "https://img.icons8.com/?size=100&id=38294&format=png",
+			imgName: "JAVA"
 		},
 
 		{
-			imagelink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTwzDfejQjrtyuTLtbhl78_QUBEtG86gBq7cIkjmtkpMgUuC7A6V9-l-UmgsX0mcz6wFk&usqp=CAU",
+			imagelink: "https://img.icons8.com/?size=100&id=38272&format=png",
 			imgName: "CSS"
 		},
 
 		{
-			imagelink: "https://png.pngitem.com/pimgs/s/27-278324_html5-css3-bootstrap-logo-hd-png-download.png",
+			imagelink: "https://img.icons8.com/?size=100&id=ldQqWiIRv9bc&format=png",
 			imgName: "Bootstrap(Basic)"
 
 		},
@@ -183,22 +188,22 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://i.makeagif.com/media/11-21-2022/imisbt.gif",
+			imagelink: "https://img.icons8.com/?size=100&id=35989&format=png",
 			imgName: "React(Basic)"
 		},
 
 		{
-			imagelink: "https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-512.png",
+			imagelink: "https://img.icons8.com/?size=100&id=12599&format=png",
 			imgName: "GitHub(Basic)"
 		},
 
 		{
-			imagelink: "https://git-scm.com/images/logos/logomark-orange@2x.png",
+			imagelink: "https://img.icons8.com/?size=100&id=38389&format=png",
 			imgName: "Git(Basic)"
 		},
 
 		{
-			imagelink: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png",
+			imagelink: "https://img.icons8.com/?size=100&id=12592&format=png",
 			imgName: "Python(Basic)"
 		}
 		
