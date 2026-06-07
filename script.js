@@ -37,11 +37,8 @@ function createBanner(){
 	anchor2.setAttribute("class", "link");
 	const img2 = document.createElement("img");
 	img2.setAttribute("src","https://marketplacedesignoye.s3.ap-south-1.amazonaws.com/Black%20%26%20White-pinned-octocat-vector.png");
-    
-
     const img3 = document.createElement("img");
 	img3.setAttribute("src","https://img.freepik.com/premium-vector/email-icon-png_564384-728.jpg");
-    
     
 
 	banner.appendChild(image);
