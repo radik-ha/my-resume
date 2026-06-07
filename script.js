@@ -185,7 +185,7 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://assets-v2.lottiefiles.com/a/b3202668-1151-11ee-939e-cf25d6aad422/LXZKuNhIQ5.gif",
+			imagelink: "https://camo.githubusercontent.com/afdf5a3b933086604f6acf89a8fa2a321aaa6d912919c573f87545587a59333f/68747470733a2f2f74656368737461636b2d67656e657261746f722e76657263656c2e6170702f72656163742d69636f6e2e737667",
 			imgName: "React(Basic)"
 		},
 
