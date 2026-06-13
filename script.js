@@ -349,7 +349,7 @@ function createProject(){
 	const details = [
 		     {
 	    	    imglink: "https://t4.ftcdn.net/jpg/18/66/42/19/360_F_1866421970_XufrKd21u4idT3FOZ9p5IUN78vDYS6YP.jpg",
-	    	    name: "Rag Application",
+	    	    name: "Rag Assistant",
 	            h1: "Python, FAISS, SentenceTransformers, Gemini, FastAPI",
 	            link: "https://radik-ha.github.io/first_RAG/"
 	        },
