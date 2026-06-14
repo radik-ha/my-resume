@@ -350,7 +350,7 @@ function createProject(){
 		     {
 	    	    imglink: "https://t4.ftcdn.net/jpg/18/66/42/19/360_F_1866421970_XufrKd21u4idT3FOZ9p5IUN78vDYS6YP.jpg",
 	    	    name: "Rag Assistant",
-	            h1: "Python, FAISS, SentenceTransformers, Gemini, FastAPI",
+	            h1: "Python | FAISS | FastAPI | Gemini API",
 	            link: "https://radik-ha.github.io/first_RAG/"
 	        },
 		
@@ -456,21 +456,21 @@ function createProject(){
 	        {
 	        	imglink: "https://i.makeagif.com/media/11-21-2022/imisbt.gif",
 	        	name: "My First React App",
-	        	h1: "React JS",
+	        	h1: "ReactJS",
 	        	link: "https://my-first-react-app-vkl4.onrender.com/"
 	        },
 
 	        {
 	        	imglink: "https://cdn.vectorstock.com/i/500p/42/81/letter-z-number-2-logo-icon-design-template-vector-5764281.jpg",
 	        	name: "Zacebook",
-	        	h1: "React JS (Props and useState)",
+	        	h1: "ReactJS (Props and useState)",
 	        	link: "https://zacebook-react.onrender.com/"
 	        },
 
 	        {
 	        	imglink: "https://cdn.pixabay.com/photo/2015/08/03/13/58/whatsapp-873316_1280.png",
 	        	name: "WhatsApp-UI Clone",
-	        	h1: "React JS (Conditional Rendering)",
+	        	h1: "ReactJS(Conditional Rendering)",
 	        	link: "https://whatsapp-ui-using-react.onrender.com/"
 	        }
 
