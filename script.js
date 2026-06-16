@@ -17,7 +17,8 @@ function createBanner(){
 	const banner = document.createElement("div");
 	banner.setAttribute("class","head");
 	const image = document.createElement("img");
-	image.setAttribute("src","https://img.icons8.com/3d-fluency/1200/java-coffee-cup-logo.jpg");
+	image.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-0y4785Uk_CtWAnQqyAbv0GQufFeC94cKA&s
+");
 	image.setAttribute("id","image");
 	const div = document.createElement("div");
 	div.setAttribute("class","text");
