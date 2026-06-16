@@ -164,7 +164,7 @@ function createImage(){
 		},
 		
 		{
-			imagelink: "https://img.icons8.com/?size=100&id=38294&format=png",
+			imagelink: "https://img.icons8.com/3d-fluency/1200/java-coffee-cup-logo.jpg",
 			imgName: "JAVA"
 		},
 
