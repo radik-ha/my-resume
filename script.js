@@ -159,7 +159,7 @@ function createImage(){
 	const details = [
 		
 		{
-			imagelink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIxeNFO8PSlvOvudmrtLIOYdTpN6o77VKolQ&s",
+			imagelink: "https://cdn-icons-png.flaticon.com/256/121/121537.png",
 			imgName: "HTML"
 		},
 		
