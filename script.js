@@ -17,7 +17,7 @@ function createBanner(){
 	const banner = document.createElement("div");
 	banner.setAttribute("class","head");
 	const image = document.createElement("img");
-	image.setAttribute("src","https://logoeps.com/wp-content/uploads/2013/03/hibiscus-flower-vector-logo.png");
+	image.setAttribute("src","https://png.pngtree.com/png-vector/20260401/ourlarge/pngtree-vibrant-red-hibiscus-flower-with-soft-lighting-png-image_18915121.webp");
 	image.setAttribute("id","image");
 	const div = document.createElement("div");
 	div.setAttribute("class","text");
