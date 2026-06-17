@@ -17,7 +17,7 @@ function createBanner(){
 	const banner = document.createElement("div");
 	banner.setAttribute("class","head");
 	const image = document.createElement("img");
-	image.setAttribute("src","https://img.icons8.com/color/512/html-5--v2.png");
+	image.setAttribute("src","https://thumbs.dreamstime.com/b/ikon-f%C3%B6r-enkel-vektor-i-brasilien-hibiscus-flower-logo-design-383920812.jpg");
 	image.setAttribute("id","image");
 	const div = document.createElement("div");
 	div.setAttribute("class","text");
@@ -159,7 +159,7 @@ function createImage(){
 	const details = [
 		
 		{
-			imagelink: "https://cdn-icons-png.flaticon.com/256/121/121537.png",
+			imagelink: "https://img.icons8.com/ios_filled/512/FD7E14/html-5--v2.png",
 			imgName: "HTML"
 		},
 		
