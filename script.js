@@ -174,7 +174,7 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
+			imagelink: "https://images.icon-icons.com/2845/PNG/512/bootstrap_logo_icon_181374.png",
 			imgName: "Bootstrap(Basic)"
 
 		},
@@ -190,7 +190,7 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_640.png",
+			imagelink: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
 			imgName: "GitHub(Basic)"
 		},
 
@@ -200,7 +200,7 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://riteshkumarlidroid.gallerycdn.vsassets.io/extensions/riteshkumarlidroid/python-code-keeper/1.0.3/1736923015252/Microsoft.VisualStudio.Services.Icons.Default",
+			imagelink: "https://e7.pngegg.com/pngimages/33/377/png-clipart-python-programming-language-computer-programming-object-oriented-programming-others-miscellaneous-text-thumbnail.png",
 			imgName: "Python"
 		}
 		
