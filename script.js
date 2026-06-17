@@ -180,7 +180,7 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png?_=20120221235433",
+			imagelink: "https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small/js-icon-transparent-background-free-png.png",
 			imgName: "JavaScript(Basic)"
 		},
 
@@ -190,7 +190,7 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+			imagelink: "https://media.lordicon.com/icons/wired/flat/2572-logo-github.svg",
 			imgName: "GitHub(Basic)"
 		},
 
@@ -200,7 +200,7 @@ function createImage(){
 		},
 
 		{
-			imagelink: "https://e7.pngegg.com/pngimages/33/377/png-clipart-python-programming-language-computer-programming-object-oriented-programming-others-miscellaneous-text-thumbnail.png",
+			imagelink: "https://ih1.redbubble.net/image.2189776566.6167/raf,360x360,075,t,fafafa:ca443f4786.jpg",
 			imgName: "Python"
 		}
 		
