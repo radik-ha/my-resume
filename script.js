@@ -164,13 +164,13 @@ function createImage(){
 		},
 		
 		{
-			imagelink: "https://img.icons8.com/3d-fluency/1200/java-coffee-cup-logo.jpg",
-			imgName: "JAVA"
-		},
-
-		{
 			imagelink: "https://img.icons8.com/color/512/css3.png",
 			imgName: "CSS"
+		},
+		
+		{
+			imagelink: "https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small/js-icon-transparent-background-free-png.png",
+			imgName: "JavaScript(Basic)"
 		},
 
 		{
@@ -178,10 +178,16 @@ function createImage(){
 			imgName: "Bootstrap(Basic)"
 
 		},
-
+		
 		{
-			imagelink: "https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small/js-icon-transparent-background-free-png.png",
-			imgName: "JavaScript(Basic)"
+			imagelink: "https://img.icons8.com/3d-fluency/1200/java-coffee-cup-logo.jpg",
+			imgName: "JAVA"
+		},
+
+		
+		{
+			imagelink: "https://cdn.creazilla.com/icons/3231246/logo-python-icon-sm.png",
+			imgName: "Python"
 		},
 
 		{
@@ -197,11 +203,6 @@ function createImage(){
 		{
 			imagelink: "https://img.icons8.com/color/512/git.png",
 			imgName: "Git(Basic)"
-		},
-
-		{
-			imagelink: "https://ih1.redbubble.net/image.2189776566.6167/raf,360x360,075,t,fafafa:ca443f4786.jpg",
-			imgName: "Python"
 		}
 		
 	]
