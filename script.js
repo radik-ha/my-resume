@@ -17,7 +17,7 @@ function createBanner(){
 	const banner = document.createElement("div");
 	banner.setAttribute("class","head");
 	const image = document.createElement("img");
-	image.setAttribute("src","https://png.pngtree.com/png-vector/20260401/ourlarge/pngtree-vibrant-red-hibiscus-flower-with-soft-lighting-png-image_18915121.webp");
+	image.setAttribute("src","https://thumbs.dreamstime.com/b/ikon-f%C3%B6r-enkel-vektor-i-brasilien-hibiscus-flower-logo-design-383920812.jpg");
 	image.setAttribute("id","image");
 	const div = document.createElement("div");
 	div.setAttribute("class","text");
