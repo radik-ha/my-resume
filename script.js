@@ -500,7 +500,7 @@ function createHobbies(hstr){
 }
 
 function createHobby(){
-	const details = ["Drawing", "Gardening" ,"Herbarium", "Reading", "Grafting"]
+	const details = ["Drawing", "Gardening" ,"Herbarium", "Reading", "Crafting"]
 	details.forEach(createHobbies);
 	body.appendChild(hobby);
 }
