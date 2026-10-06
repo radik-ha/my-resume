@@ -180,7 +180,7 @@ function createImage(){
 		},
 		
 		{
-			imagelink: "https://i.pinimg.com/736x/f7/af/22/f7af228a7767ee37e40b33596f1cfb3f.jpg",
+			imagelink: "./images/javal.jpg",
 			imgName: "JAVA"
 		},
 
