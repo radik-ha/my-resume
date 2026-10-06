@@ -180,7 +180,7 @@ function createImage(){
 		},
 		
 		{
-			imagelink: "https://img.icons8.com/3d-fluency/1200/java-coffee-cup-logo.jpg",
+			imagelink: "https://i.pinimg.com/736x/f7/af/22/f7af228a7767ee37e40b33596f1cfb3f.jpg",
 			imgName: "JAVA"
 		},
 
