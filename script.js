@@ -17,7 +17,7 @@ function createBanner(){
 	const banner = document.createElement("div");
 	banner.setAttribute("class","head");
 	const image = document.createElement("img");
-	image.setAttribute("src","https://i.pinimg.com/1200x/66/57/7a/66577a12d2e9b93a68b7d2d2ad61c502.jpg");
+	image.setAttribute("src","https://i.pinimg.com/736x/15/c4/ac/15c4ac9ea9a3f82eea25a58d64737fa7.jpg");
 	image.setAttribute("id","image");
 	const div = document.createElement("div");
 	div.setAttribute("class","text");
